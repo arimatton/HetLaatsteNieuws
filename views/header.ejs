@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<title>HLN-REDESIGN</title>
+		<link rel="stylesheet" type="text/css" href="/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="/css/styles.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+	<div class="header">
+    <a href="/"><img class="logo" src="http://static0.hln.be/images/logos/hln_logo.png?7.4.0.20170323.1" alt=""></a>
+	    
+	</div>
+	<h1>Het Laatste Nieuws</h1>
+	<div class="center"><i class="fa fa-bars" aria-hidden="true" id="menubutton"></i>
+	
+	<nav>
+        <h3>Categorieën:</h3>
+          <% for (var i = 0; i < categorieen.length; i++) { %>
+            <a href="/categorieen/<%- i %>"><%- categorieen[i] %></a>
+          <% } %>
+    </nav>
+	
+	
+	</div>
+	
+
+	
+	
+	<div class="divider"><p class="center">··························</p></div>

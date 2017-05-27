@@ -1,0 +1,186 @@
+body {
+  font-family: helvetica;
+  width: 100%;
+  margin: 25px auto 0 auto;
+  line-height: 1.4em;
+}
+
+section {
+  margin: 25px 0;
+  padding: 0 10px;
+}
+
+
+
+img {
+  max-width: 100%;
+  margin: 0 auto;
+    display: block;
+  
+}
+
+
+
+.centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.summ{
+  margin: 10px 0;
+  padding: 10px;
+}
+
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+
+h1 a{
+    text-decoration: none;
+    color: rgb(252,15,27);
+    
+    
+    line-height: 2em;
+}
+
+h2 {
+  margin: 25px 0;
+  font-size:1em;
+    padding: .5em;
+    background-color: rgb(252,15,27);
+    color:white;
+}
+
+h2 a{
+    text-decoration: none;
+    color: white;
+    
+    
+    line-height: 2em;
+}
+
+h3 {
+  display: inline;
+  padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(252,15,27);
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: rgb(252,15,27);
+}
+nav {
+  margin: 25px 0;
+  display: none;
+  opacity: 0;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+p { 
+    padding-bottom: 1em; 
+    line-height: 1.5em;
+    font-family: 'Hind', sans-serif;
+}
+.header{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.header img{
+    width: 50px;
+    margin: 2em auto;
+}
+
+img.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+.categorien{
+    display: block;
+    
+}
+
+
+
+div .divider{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divider p{
+    margin-top: 1em;
+}
+.center
+{
+    text-align: center;
+}
+
+
+.datum{
+    color: rgb(252,15,27);
+    padding: 10px;
+    text-decoration: underline;
+}
+
+
+.page{
+    width: 80%;
+    margin: 2em auto;
+    padding: 1em;
+    color:black;
+}
+
+
+
+
+.half h2{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.footerLink{
+    margin: 5px 30px;
+    padding-top: 25px;
+}
+
+.footer{
+    background-color:rgb(252,15,27);
+    width: 100%;
+    padding: 25px auto 0 auto;
+    min-height:100px;
+    color:white;
+    text-align: center;
+}
+
+.footer i{
+    margin: 5px 30px;
+    padding-top: 27px;
+}
+
+i{
+   margin: 0 10px; 
+}
+
+.footer a{
+    color:white;
+}
