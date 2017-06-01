@@ -1,19 +1,21 @@
 <% include header %>
 
 
-<h1><a href="/">terug naar home...</a></h1>
+
 <section>
 
     <h2>
-      <%- item.titel %>
+      <%- item.categorieen %> -- <%- item.titel %>
     </h2>
     <img src="/img/<%- item.afbeeldingl %>" alt="<%- item.titel %>">
 
-    <p class="datum"><%- item.datum %></p>
+    <p class="datum"><span>Year:</span> <%- item.jaar %></p>
 
-    <p class="bodyText">
-      <%- item.body %>
-    </p>
+    <p class="datum"><span>Price:</span> <%- item.prijs %></p>
+    <p class="datum"><span>Size:</span> <%- item.grootte %></p>
+    
+    <p class="bid">Bid here</p>
+ 
 <!--
     <p>Categorieën:
 
@@ -23,5 +25,8 @@
     </p>
 -->
 </section>
+
+<h1><div class="center"><a href="/" class="backbtn">back</a></div></h1>
+
 
 <% include footer %>

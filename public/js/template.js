@@ -1,4 +1,5 @@
 function main() {
+    
           var menubutton = document.getElementById("menubutton");
           var nav = document.getElementsByTagName("nav")[0];
     
@@ -17,6 +18,7 @@ function main() {
             return;
         }
     }
+    
 }
 
 window.onload = function() {

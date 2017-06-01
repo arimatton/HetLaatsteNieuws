@@ -1,13 +1,18 @@
+#menubutton{
+    margin-top:10%;
+}
+
 body {
   font-family: helvetica;
   width: 100%;
-  margin: 25px auto 0 auto;
+  margin: 0 auto;
   line-height: 1.4em;
 }
 
 section {
   margin: 25px 0;
   padding: 0 10px;
+  
 }
 
 
@@ -15,12 +20,14 @@ section {
 img {
   max-width: 100%;
   margin: 0 auto;
-    display: block;
+  display: block;
   
 }
 
 
-
+span{
+    text-decoration: underline;
+}
 .centered{
     display: block;
     margin-left: auto;
@@ -28,31 +35,65 @@ img {
 }
 p.summ{
   margin: 10px 0;
-  padding: 10px;
+  padding: 0px;
+  font-weight: 500;
 }
 
+p.bid{
+    width:40%;
+    padding: 2%;
+    background-color:black;
+    color:white;
+    text-align: center;
+    /*margin-left:auto;
+    margin-right:auto;*/
+    margin-bottom:1em;
+    
+ 
+}
+
+a.more{
+    text-decoration: none;
+}
+
+p.more{
+    width:40%;    
+    padding: 2%;
+    background-color:black;
+    color:white;
+    text-align: center;
+    /*margin-left:auto;
+    margin-right:auto;*/
+    
+ 
+}
 
 h1{
-    text-align: center;
+    text-align: left;
     font-weight: bold;
-    margin-bottom: 1em;
+    margin: 1em 0;
 }
 
 
 h1 a{
     text-decoration: none;
-    color: rgb(252,15,27);
+    color: black;
     
     
     line-height: 2em;
 }
 
+h1 div{
+    margin: 3em 0 1em 0;
+}
+
 h2 {
   margin: 25px 0;
   font-size:1em;
-    padding: .5em;
-    background-color: rgb(252,15,27);
-    color:white;
+  padding: .5em;
+  background-color:black;
+  color:white;
+  font-weight: bold;
 }
 
 h2 a{
@@ -60,33 +101,51 @@ h2 a{
     color: white;
     
     
+    
     line-height: 2em;
 }
 
 h3 {
-  display: inline;
-  padding: 10px;
+  display: block;
+    font-size: .8em;
+    font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
 }
 
+
+nav {
+  margin: 25px 0 0 0;
+  padding: 1em;
+    display: none;
+
+}
+
+
 nav a{
-    text-decoration: none;
-    color: rgb(252,15,27);
+    text-decoration: underline;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: black;
+    padding: 2%;
+    
 }
 
 nav a:hover{
     text-decoration: underline;
-    color: rgb(252,15,27);
-}
-nav {
-  margin: 25px 0;
-  display: none;
-  opacity: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    padding: 2%;
+    background-color: black;
+    
 }
 
-nav a {
-  display: inline-block;
-  margin-right: 5px;
+.nav-items{
+    
 }
+
 
 p { 
     padding-bottom: 1em; 
@@ -94,13 +153,15 @@ p {
     font-family: 'Hind', sans-serif;
 }
 .header{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
+    padding: 5%;
+    background-color: black;
     display: block;
 }
 
 .header img{
-    width: 50px;
+    width: 40%;
     margin: 2em auto;
 }
 
@@ -122,10 +183,11 @@ div .divider{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
 }
 
 .divider p{
-    margin-top: 1em;
+    margin:2em 0;
 }
 .center
 {
@@ -134,9 +196,9 @@ div .divider{
 
 
 .datum{
-    color: rgb(252,15,27);
-    padding: 10px;
-    text-decoration: underline;
+    color: black;
+    margin-top:10px;
+    
 }
 
 
@@ -148,8 +210,17 @@ div .divider{
 }
 
 
+a.backbtn{
+    padding: 2%;
+    background-color:black;
+    color: white;
+    margin-top:2em;
+}
 
 
+p.center{
+    padding: 0;
+}
 .half h2{
     width: 50%;
     text-align: center;
@@ -164,7 +235,8 @@ div .divider{
 }
 
 .footer{
-    background-color:rgb(252,15,27);
+    background-color:black;
+    color:white;
     width: 100%;
     padding: 25px auto 0 auto;
     min-height:100px;
@@ -183,4 +255,21 @@ i{
 
 .footer a{
     color:white;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }

@@ -6,16 +6,22 @@
   <% nieuws.forEach(function(item){ %>
     <section>
         <h2>
-          <a href=/items/<%- item.id %>><%- item.titel %></a>
+          <a href=/items/<%- item.id %>><%- item.categorieen %> -- <%- item.titel %></a>
         </h2>
         <img class="centered"src="/img/<%- item.afbeeldings %>" alt="<%- item.titel %>">
         <p class="datum"><%- item.datum %></p>
 
         <p class="summ">
-          <%- item.samenvatting %>
+          
+          <span>Price: </span><%- item.prijs %>
         </p>
+        <p class="bid">Bid here</p>
+        <a href=/items/<%- item.id %>><p class="more">More info</p></a>
         
-        <div class="divider"><p class="center">·····</p></div>
+        
+        <div class="cf"></div>
+        
+        <div class="divider"><p class="center">-------------------------------------------</p></div>
     </section>
     <% teller++;}); %>
 

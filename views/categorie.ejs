@@ -3,11 +3,11 @@
 <div class="center half"> 
     
 
-<h2><a href="/">terug...</a></h2>
+
 
 </div>
 
-<h3>Nieuwsitems voor categorie <%- categorieen[id] %></h3>
+<h3>Works from <%- categorieen[id] %></h3>
 
   <% for (var i = 0; i < items.length; i++) { %>
     <% if (items[i].categorieen.indexOf(categorieen[id]) !== -1) { %>
@@ -24,5 +24,8 @@
       </section>
     <% } %>
   <% } %>
+  
+  
+  <h1><div class="center"><a href="/" class="backbtn">back</a></div></h1>
 
 <% include footer %>

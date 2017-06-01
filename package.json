@@ -1,7 +1,7 @@
 {
-  "name": "mobiel-nieuws-demo",
+  "name": "sotheby's",
   "version": "1.0.0",
-  "description": "Mobiele nieuwssite",
+  "description": "Mobiele kunstsite",
   "main": "app.js",
   "directories": {
     "test": "test"
